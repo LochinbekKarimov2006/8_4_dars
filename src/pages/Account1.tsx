@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { Link } from 'react-router-dom'
 
 function Account1() {
     let data=useRef()
@@ -31,7 +32,9 @@ function Account1() {
                 <input className='input' type="text" placeholder='Zip' />
 
                 </label>
-                <button className='button'>Continue »</button>
+                <Link to="/1">
+            <button className='button'>Continue »</button>
+            </Link>
             </form>
         </div>
     </div>

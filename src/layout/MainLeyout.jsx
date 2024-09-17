@@ -1,15 +1,15 @@
-import React from 'react';
 import Navbar from '../components/Navbar';
 import Menyu from '../components/Menyu';
-import Account1 from '../pages/Account1';
+import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
   return (
+    
     <div >
       <Navbar />
       <div className='div-100'>
         <Menyu />
-        <Account1/>
+        <Outlet/>
       </div>
     </div>
   );

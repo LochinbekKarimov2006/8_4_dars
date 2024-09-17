@@ -1,9 +1,9 @@
 body{
-  font-family: sans-serif;
+  font-family:cursive;
 }
 .p2{
   font-family: 600;
-  font-size:24px;
+  font-size:22px;
 }
 .p3{
   font-family: 400;
@@ -71,17 +71,18 @@ p{
   max-width: 410px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 25px;
 }
 .input{
   max-width: 100%;
   border: 1px #e1e3e6 solid;
-  height: 33px;
-  border-radius: 13px;
+  height: 35px;
+  border-radius: 10px;
   padding: 0;
   color: #757d8a;
-  font-size: 16px;
-  padding: 0 10px;
+  font-size: 15px;
+  padding:0 7px;
+  font-weight: 500;
 }
 .button{
   width: 100%;
@@ -93,12 +94,12 @@ p{
 font-size: 16px;
 }
 .input_text{
-  font-size: 18px;
-  font-family: 500;
+  font-size: 16px;
+  font-weight: 600;
   counter-reset: #404d61;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
 }
 .div-100{
   display: grid;
@@ -129,4 +130,9 @@ font-size: 16px;
   display: flex;
   padding: 10px 15px;
   border-radius: 15px;
+}
+.div-104{
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
