@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+// import Menyu from './components/Menyu';
+import "./App.css"
+import Account1 from './pages/Account1';
+import MainLayout from './layout/MainLeyout';
+// import App from './App';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Menyu/> */}
+    {/* <App/> */}
+    {/* <Account1/> */}
+    <MainLayout/>
   </React.StrictMode>
 );
 
