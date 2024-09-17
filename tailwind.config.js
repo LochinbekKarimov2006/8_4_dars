@@ -8,9 +8,5 @@ export default {
     extend: {},
   },
   plugins: [],
-  {
-    compilerOptions: {
-      jsx: "react-jsx"
-    }
-  }
+ 
 }

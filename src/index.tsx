@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Menyu from './components/Menyu';
 import "./App.css"
-import Account1 from './pages/Account1';
+// import Account1 from './pages/Account1';
 import MainLayout from './layout/MainLeyout';
 // import App from './App';
 const root = ReactDOM.createRoot(
