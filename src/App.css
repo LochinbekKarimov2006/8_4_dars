@@ -13,13 +13,16 @@ margin-left: 20px;
 }
 p{
   margin: 0;
-
+}
+.active{
+  background-color: #1702f7;
+  border-radius: 50px;
 }
 .p1{
   width: 24px;
   height: 24px;
   border-radius: 50px;
-  background-color: rgba(252, 252, 252, 0.514);
+  background-color: rgba(252, 252, 252, 0.534);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +32,7 @@ p{
   width: 10px;
   height: 10px;
   border-radius: 50px;
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(252, 252, 252, 0.534);
 }
 .div-1{
   display: flex;
